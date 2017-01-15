@@ -1,0 +1,18 @@
+#type true=shell, false=apple
+#How to add new commands with python script
+#with open ("rep.json", "a") as newCommand:
+#	newCommand.write("var " + newCommandName + " {\n\t\"command\" : " + newCommandParam + "\",\n\t\"script\" : \"" + newCommandScriptPath + "\",\n\t\"numParam\" : \"" + newCommandNumParam + "\"\n};")
+
+
+
+var open = {
+	"command" : "open",
+	"script" : "~/Desktop/open.sh",
+	"numParam" : "1"
+};
+
+var get_weather = {
+	"command" : "get_weather",
+	"script" : "~/Desktop/weather.sh",
+	"numParam" : "1"
+};
