@@ -53,15 +53,15 @@ print("Now processing audio input")
 # recognize speech using Google Cloud Speech
 GOOGLE_CLOUD_SPEECH_CREDENTIALS = r"""{
   "type": "service_account",
-  "project_id": "corded-backbone-155619",
-  "private_key_id": "8e170e00dfff078ec1273ba65542a09fe028771b",
-  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDPs73kRMwBuBhJ\nTvFUSMVi1eLTXBlBYnXj4eDZutC8nAWiButTCB2LpD+cayiLx7hPVSoNnXi7lP+N\nm/NtyHBRyhRPGEUNj5l5vCCsd2NWkgMQwzIG3eh139JXiNEQn28emW/+kVnW+Jk8\nWMas1WQqohGZD2+Qq6DEb1Vo5/9pZcGRRk9bHolpkp1+AgDmIsY56xbpw7UZPJKq\nPJlwSxUsP3w8JJBSS8W/wTTfxniOYybTQ1XWDEsSYxITcLPUpQYU/3a/070/VfgA\nBsc7P9IRkzs7YGEb9NkTevz/1h7UaS8xo1R5UhZ42Sa5XSX7fjPJs8gUgrYPG2m9\nhmVyX+xHAgMBAAECggEBAJfGTpLJuxHehtC7ARqH+sUYaqHsgQAIhQE7A+XW38WT\ndYJK8BdCrORn55vTqlNKZGKEZzB/y8O3Q28lcKLef0UlF+YcZAlez9XnJTEiJNMT\n622KVboy2jWYksooTi2Jc9e2Y+JwMGgoTUGN1dBiNsn4mEdywiHDaL1iZdU9AqTu\nx3kM7Sy13cNGW8GrVClWilKuQW/BGDTvYh3ye9FOYjYnCQEYZSfqtqZ/Ys5I193E\nnjXygv5YJ1rQrBBNCAbJ94tYIK/LEm74o82RKnlCHPatbp7Bu3ZxImFRo+i4Q4xc\n1NVwYtGe72GNegdaAfiWFqIDQBD/SSmgJokQ1/t9TmECgYEA7VS5zVRfEMEnBMwh\nJuQ4xRMgvF4mgul9t8SDiY1b0TW5UJIvVor8q9T0vL1mreEJtOVwFzESiu6HWJlZ\n1rdQwK859DCOmNZ90gthGRGQYuE8SDRPUg2iwINi5cy2yKTaGz+qBB44WUQAaUhc\nKK4NFn4ridi+x+P+Qf1IH050F68CgYEA4ApcxUlTs6rC0fefJ8AFSkiEmpiZ2ZP0\nvl2/2ioayrNuLGPkJoshDSU8hvF8QDOuayXVFBxC8aKPJlGIKAHU35Qb2gkC/qin\nd50aTKK/ufrhtre8fZHRoGGLblonqeTuubMaccbDDLxEXscDnMeLnH997PqxEf1Z\nQpnE4YCpAukCgYEAyff8VryiWkPFzNNasxotJalthmApLec+UZEuz3Q42wV5OxPs\nrR2CgUitLaGRLBACjqtihJoCSbFMBR4b0hoW4qM8Eo7wCykd0g5VB1xnH37GKjw5\n9H4eLu6gzycztfR0mBPJv89n7K9uGiq2IvhbsvSUYK7PTJS937KIGfxN14kCgYBJ\njL1V+zOiWR3qJlu2hgB2mYYG5rAjUMJZOJfCPG5dOzihFA4TZTttgFr1hhOfVBgf\njuT73CdSAmbyUnPbhnZnC810795u0dlgmE/I9ujwWl99R6Z2psdl2oAWszwwNzrz\n9ctprLHd3XSolLcn4g6ASw6BHO/CkySZi7epvD4/+QKBgQDeECqRXgDgVCiyqT3E\nXL4NIvafUq4F1xz01vFbrltusw/CJOSFQ1RNZU/5Rx7esvkCeLfmP3xXgCDj7z5o\nqifOYmueKcaDbQMLpr9rCr24r+lgvucDrosf7BQNuHlNgXKS6zE6omcJnpAzwUZz\neX13eoz55SbOrsmswrXG61h8fA==\n-----END PRIVATE KEY-----\n",
-  "client_email": "476359523163-compute@developer.gserviceaccount.com",
-  "client_id": "116408007499073695237",
+  "project_id": "[redacted]",
+  "private_key_id": "[redacted]",
+  "private_key": "-----BEGIN PRIVATE KEY-----\[redacted]\n-----END PRIVATE KEY-----\n",
+  "client_email": "[redacted]",
+  "client_id": "[redacted]",
   "auth_uri": "https://accounts.google.com/o/oauth2/auth",
   "token_uri": "https://accounts.google.com/o/oauth2/token",
   "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/476359523163-compute%40developer.gserviceaccount.com"
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/[redacted]"
 }
 """
 def listen():
